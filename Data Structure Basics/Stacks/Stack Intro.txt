@@ -1,0 +1,23 @@
+Data Structure with FILO (first in last out) property
+
+Three Operations:
+	Insert (Push): Put item into stack
+	Peek: Look at the top item of the stack (the last inserted item that's not removed)
+	Remove (Pop): Remove the top item of the stack
+
+Recursion utilizes a stack along with a few other concepts.
+
+Implementation:
+	Basic implementation of the data structure uses a statically sized (unchanging size) array and a pointer to the top of the stack.
+	When inserting an item, we set the value of the pointer to that item and increment the pointer by 1.
+	When removing, the pointer gets decremented by 1.
+	There is no need to ever reset the pointer bc it isn't accessible by the stack.
+
+Errors:
+	Underflow: Removing an item with no items causes an undeflow error
+		Prevented by simply checking if the stack is empty before removing an item from the stack
+	Overflow: Adding an item to a stack that is statically sized and is full will cause an overflow error.
+		Modern languages generally have dynamic arrays that allow the size to grow/shrink which is a solution to the overflow error.
+
+Time Complexity:
+	Push/Pop or Insertion/Deletion in dynamic arrays both have a time complexity of O(1).

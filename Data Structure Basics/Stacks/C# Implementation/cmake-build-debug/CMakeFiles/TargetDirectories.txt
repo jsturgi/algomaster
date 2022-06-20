@@ -1,0 +1,3 @@
+C:/Users/jstur/Documents/algomaster/Data Structure Basics/Stacks/C# Implementation/cmake-build-debug/CMakeFiles/C__Implementation.dir
+C:/Users/jstur/Documents/algomaster/Data Structure Basics/Stacks/C# Implementation/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/jstur/Documents/algomaster/Data Structure Basics/Stacks/C# Implementation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
