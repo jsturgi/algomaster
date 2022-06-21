@@ -1,0 +1,51 @@
+
+Subarray slicing indices are left-inclusive and right-exclusive.
+    subarray=a[2:5] = indices of 2-4.
+
+while iterating, use enumerate to get both index and element at the same time
+
+Linked List - no built in implementation,
+class LinkedListNode:
+    def __init__(self, val, next=None):
+        self.val = val
+        self.next = next
+
+append to end is O(1)
+finding element is O(n)
+
+Python's dict has a subclass ocunter for counting hashable objects.
+When you pass an iterable object, such as a list or a string, to Counter() will 
+return a new dict with elements as keys and their counts as values.
+
+
+import collections.Counter
+
+word = "occur"
+counter = Counter(word)
+# counter = {'o':1, 'c':2, 'u':1, 'r':1}
+
+print(counter['c'] ) #output 2
+print(counter['y']) #prints out 0 for non existent element
+
+# the number of unique elements in word can be obtained by the length of its counter
+num_of_unique_elements = len(counter)
+# num_of_unique_elements = 4
+
+Python's set is an implementation of hash set.  Its useful in answering the existence queries in constant time. For a set s = set():
+    is a in set s:a in s, 0(1)
+    adding a to set: s.add(a), O(1) - dupes discarded
+    removing a from set: s.remove(a), O(1). Does nothing if a is not in set
+
+Hash Set is useful when you only need to know existence of a key (DFS/BFS on graphs)
+
+binary tree implementation
+class TreeNode:
+    def __init__(self,val):
+        self.val = val
+        self.left = None
+        self.right = None
+n-nary trees:
+class TreeNode:
+    def __init__(self,val):
+        self.val = val
+        self.children = []
