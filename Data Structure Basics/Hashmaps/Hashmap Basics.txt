@@ -1,0 +1,33 @@
+Hash Functions: a function that can convert a data of arbitrary size to a value of a fixed size. 
+Hash Value: The result of a hash function.
+
+A valid hash function must always return the same hash value for two items representing the same values.
+Hash Collission: two different items hashing to the same value.
+
+Attributes of a good hash function:
+    It is easy to calculate the hash value (low time complexity)
+    Chance of oollision is very low
+    All possible values are utilized approximately equally.
+
+
+Hash Table/Map is a type of data structure that maps an arbitrary data type to another arbitrary data type.
+    > an example is a phone book mapping a name to a phone number
+
+Idea of hash tables
+    Data is stored in a fixed-size array, where each data value has an unique index
+    when a new KV pair is added to the array, we use a hash function to generate a hash value within the range of the array with a key
+    We then store the data value at the index indicated by the generate hash value
+    when we retrieve the data with the key from the hash table, we hash the key again and look up the data in the array with the corresponding index.
+    Since the hash function always returns the same hash values with the same imput, we will always find the correct item in that index.
+
+Separate Chaining
+    Instead of storing the entry directly in the array, we use a list of kv pairs in each entry in the array instead.
+    When we set the value represented by a key in the hash table, after finding out the key's hash, we frist search for if the key
+    exists already in the list represented by the hash value.
+    If so, we can either update the value to a new one, or we can append the new kv pair in the list.
+
+
+Efficiency
+    The time complexity of hash functions is O(n/k) for each insertion/access operation on the table where n is the number of  entries and k is the array size of the table.
+    Worst Case is O(n)
+    

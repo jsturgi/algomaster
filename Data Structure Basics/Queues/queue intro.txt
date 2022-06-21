@@ -1,0 +1,20 @@
+Data Structure with thr first in, first out property. (fifo)
+
+Operations:
+    Insert (Push): Putting an item into the end of the queue.
+    Peek: Look at first item of the queue.
+    Remove (Pop): Remove the first item of the queue.
+
+Deque: double ended queue - Inserting and removing can be done on both ends.
+
+Implementation
+    Use an array and two pointers - one pointing at the start and one at the end.
+    When inserting an item into the queue, we set the entry at the end pointer to the value and increase the ned pointer by one.
+    When removing an item from the queue, we increase the start pointer by one.
+
+    For a Deque, same logic but both pairs of start/end pointers are decremented/incremented 
+
+    When one of the queue pointers reaches the end of the array, it will cause an overflow. If some elements have
+    been removed from the other end, when the queue overflows, there is unused space which is not ideal.
+
+    Fix: Circular Buffer: When a pointer tries to move past the array, it loops around to the other end of the array isntead.
