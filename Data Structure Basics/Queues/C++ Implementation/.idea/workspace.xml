@@ -5,7 +5,7 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="C__Implementation" targetName="C__Implementation" />
+      <config projectName="C___Implementation" targetName="C___Implementation" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -14,7 +14,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13257d2f-9d7b-42c5-b08f-7d0422fc7b47" name="Changes" comment="" />
+    <list default="true" id="12781f27-5deb-4a71-8994-e91d4c4fe258" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,23 +35,27 @@
     <option name="majorVersion" value="2022" />
     <option name="minorVersion" value="1.2" />
   </component>
-  <component name="ProjectId" id="2AqYoCnxwB7nkuwtPgV40oFGU4Q" />
+  <component name="ProjectId" id="2AsPDMyquHqVs3v6B5z0kZoY2yD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
-    <configuration name="C__Implementation" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C__Implementation" TARGET_NAME="C__Implementation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C__Implementation" RUN_TARGET_NAME="C__Implementation">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="C___Implementation" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C___Implementation" TARGET_NAME="C___Implementation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C___Implementation" RUN_TARGET_NAME="C___Implementation">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -60,13 +64,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="13257d2f-9d7b-42c5-b08f-7d0422fc7b47" name="Changes" comment="" />
-      <created>1655738755197</created>
+      <changelist id="12781f27-5deb-4a71-8994-e91d4c4fe258" name="Changes" comment="" />
+      <created>1655795198992</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1655738755197</updated>
-      <workItem from="1655738757713" duration="812000" />
-      <workItem from="1655795148795" duration="26000" />
+      <updated>1655795198992</updated>
+      <workItem from="1655795200962" duration="598000" />
     </task>
     <servers />
   </component>
