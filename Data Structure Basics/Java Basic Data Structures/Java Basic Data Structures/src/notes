@@ -1,0 +1,4 @@
+ArrayLists are dynamically resizable.
+
+LinkedList find is O(N), append is O(1)
+
