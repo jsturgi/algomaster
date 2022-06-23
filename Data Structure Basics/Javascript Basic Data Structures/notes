@@ -1,0 +1,23 @@
+Arrays are dynamically-sized collection of elements.
+Slicing can be done with slice(start_index, upto_index) and the indices are left inclusive and right exclusive.
+push(item) adds item to the end of array and returns array length O(1)
+pop() removes and returns the last item in the array O(1)
+shift(removes and returns the first element in the array O(n)
+unshift(item) adds item to the start of the array and returns the array length; O(n)
+splice(start, count_to_remove, additem...additemn) removes and returns count_to_remove items from
+an array given their index and optionally replaces them with add_item(s) O(n)
+
+JS Arrays double as stacks.
+top: stack[stack.length-1, O(1)
+
+Map vs Object
+A map offers several advantages over an object when used as a hash table:
+    a map does not contain default keys that could collide with your own.
+    the keys of a map can be of any data type, whereas an Object's keys must be string or symbol
+
+A set is useful for answering existence queries in constant time.
+has(item): checks if item is in set, O(1)
+add(item): appends item to set and returns set, O(1)
+delete(item): removes item from set and returns true upon successful removal, otherwise returns false, O(1)
+
+Sets are useful when you only need to know existence of a key. Example use cases include DFS and BFS on graphs.
