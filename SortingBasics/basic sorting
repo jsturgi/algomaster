@@ -1,0 +1,24 @@
+A stable sorting algorithm means that their relative order is maintained
+when two elements have the same value. 
+An in-place sorting algorithm means that the algorithm does not use
+any additional data structure to hold temp data.  
+
+Insertion Sort
+Idea: initially, only the first item is considered sorted. Then,
+for each item in the sequence, we "insert" that item into the 
+sorted list by swapping it with the item before it until the item 
+is smaller than the current item.
+
+Selection Sort
+Idea: During each cylce, we find the smallest item from the unsorted pile and add it into the sorted pile.
+To find the smallest element in the unsorted pile, we have a temporary var keeping track of the index to the smallest element.
+We then compare each element in the unsorted pile to that element, updating the new index if necessary.
+After all the elements have been compared, we swap the smallest index with the first index of the unsorted pile. 
+
+Bubble Sort
+For each pass, we use a pionter to pint at the first element of the list.  For each cycle, we compare it to the next element in the list
+and swap them if the current item is greater, then move the pointer by one until it reaches the end of the list.  We repeat this process until the
+list becomes sorted.
+
+Note that the largest element will always "float" to the top during each ps, like a bubble.  therefore, for each pass, we only need to consider the
+interval excluding the last element of the previous interval, and the list is guaranteed to be sorted within n passes.
